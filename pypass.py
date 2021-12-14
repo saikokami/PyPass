@@ -11,5 +11,5 @@ pswd=""
 for i in range(1, length):
     temp = list[random.randint(0, len(list)-1)]
     pswd += temp
-print(pswd)
+print("Password:", pswd)
 
